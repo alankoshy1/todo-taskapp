@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+<html lang="en">
+{% block content %}
+<div class="container-fluid p-4">
+    <h3> Update your Task </h3>
+<div class="container-fluid pt-3">
+<form method="post">
+{% csrf_token %}
+{{ forms.as_p }}
+        <button type="submit">Confirm Task Update</button>
+    </form>
+    </div>
+</div>
+
+{% endblock %}
+
+</html>

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+<head>
+    <title>Delete?</title>
+</head>
+<body>
+{% block content %}
+<div class="container-fluid p-4">
+    <h3> Are you sure you are done with your task? </h3>
+    <h6> A Task once done, will be complete forever. </h6>
+<div class="container-fluid pt-2">
+<form method="post">
+    {%csrf_token%}
+    <button type="submit">Confirm</button>
+</form>
+</div>
+</div>
+{% endblock %}
+</body>
+</html>

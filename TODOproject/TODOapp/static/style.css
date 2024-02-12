@@ -1,0 +1,25 @@
+.body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.banner {
+    background-image: url('/static/banner.jpg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    width:100%;
+    height:150px;
+    margin-bottom:50px;
+}
+
+.banner-text {
+    position:absolute;
+    top: 10vh;
+    left: 40vw;
+    transform: transform;
+    color: white;
+}
+
+.btn {
+    text-align: center;
+}
